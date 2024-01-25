@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f5f5f5;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+form {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#tweets-summary {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#positive-count {
+    color: #00cc00;
+}
+
+#negative-count {
+    color: #ff0000;
+}
+
+.tweet-container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tweet-box {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    word-wrap: break-word;
+}
+
+.tweet-text {
+    margin: 0;
+    color: #333;
+}
+
+.delete-button {
+    color: #ff0000;
+    cursor: pointer;
+}
+
+input[type="text"], button {
+    padding: 8px;
+    margin-right: 5px;
+}
+
+button {
+    background-color: #ff3333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Styles from index1.html */
+header {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+header img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+#commentsContainer {
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+.comment {
+    border: 1px solid #ddd;
+    padding: 8px;
+    margin-bottom: 8px;
+    position: relative;
+}
+
+.delete-button {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    background-color: #ff6464;
+    color: white;
+    border: none;
+    padding: 4px 8px;
+    cursor: pointer;
+}
+
+textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px;
+    background-color: rgb(9, 9, 127);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.green-text {
+    color: green;
+}
+
+.red-text {
+    color: red;
+}
+
+#commentsList{
+  max-width: 615px;
+  margin-left: 430px;
+}
+#tweetCounts{
+  color: white;
+  margin-left: 650px;
+}
+/* static/styles/style.css */
+
+.tweet-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.tweet-box button {
+    margin-top: 5px;
+    color: white;
+    background-color: red;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
